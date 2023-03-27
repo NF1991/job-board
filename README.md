@@ -1,5 +1,24 @@
 # job-board
 
+This is my very first Vue.js project, which I very much enjoyed because of the challenge!
+
+##How it works
+Firstly, I worked on the app cards. Since the json provided has a lot of data, I needed to loop through it using the v-for directive. This does the job of the for/in loop in Javascript, which allows all the data to be iterated over so repetitive code can be avoided. Similarly, I used this method to loop through the categories from the json file to create the list of checkbox filters. The issue with this is that it included duplicates. To combat this, I used a "computed" function that contains a set, so that each unique category would only be included in a new array once.
+
+
+
+Next, I worked on was the search bar. The task was to have the search results dynamically appear as the user types something into the search bar. I managed to achieve this with the help of v-model, which allows for two-way data binding between a value in the template and a value in our the properties.
+
+
+
+##What I'd like to add/change
+- Add functional drop-down selection to filter results based on salary and date posted.
+- Add pagination
+- Add extra page
+- Change some of the "computed" so the search filters and search bar work together more smoothly
+
+
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
